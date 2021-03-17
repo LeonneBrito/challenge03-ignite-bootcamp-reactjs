@@ -102,7 +102,7 @@ You must receive the `cart` array from the hook `useCart` and show on screen the
 
 ### pages/Home/index.tsx
 
-<img alt="main" src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F3d320e3c-a052-4f72-994e-aa69617ee85c%2FUntitled.png?table=block&id=c553563e-e14f-4b4d-9f80-b44d96c771b8&width=2020&userId=&cache=v2" />
+<img alt="main" src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F3d320e3c-a052-4f72-994e-aa69617ee85c%2FUntitled.png?table=block&id=c553563e-e14f-4b4d-9f80-b44d96c771b8&width=2020&userId=&cache=v2" width=300/>
 
 You must render the products sought from the fake API on screen with the information of title, image, price, quantity added to the cart. Finally, it is necessary to implement the functionality of adding the chosen product to the cart by clicking on the `ADD TO CART` button.
 
