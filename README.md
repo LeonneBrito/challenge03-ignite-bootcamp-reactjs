@@ -120,7 +120,7 @@ You must render a table with the image, title, unit price, quantity of units and
 
 In this file, we have five important points to be implemented:
 
-- **cartFormatted:** You must format the cart by adding the fields `priceFormatted `(price of the product) and `subTotal` (price of the product multiplied by the quantity) both properly formatted with `utils/format`.
+- **cartFormatted:** You must format the cart by adding the fields `priceFormatted`(price of the product) and `subTotal` (price of the product multiplied by the quantity) both properly formatted with `utils/format`.
 - **total:** You must have information about the total value of the cart properly formatted with `utils/format`.
 - **handleProductIncrement:** You must increase the quantity of the product chosen in the cart by 1 unit.
 - **handleProductDecrement:** The quantity of the product chosen in the cart must be reduced by 1 unit, where the minimum value is 1 (in this case the button must be deactivated).
