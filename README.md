@@ -53,11 +53,11 @@ yarn server
 
 Then you will see the message:
 
-<img alt="server" src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F1abc3356-2936-4106-a4fe-a3fc8efd1373%2FUntitled.png?table=block&id=7fe88f6f-62c6-45c7-a898-d1672dbbe6bd&width=1420&userId=&cache=v2" />
+<img alt="server" src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F1abc3356-2936-4106-a4fe-a3fc8efd1373%2FUntitled.png?table=block&id=7fe88f6f-62c6-45c7-a898-d1672dbbe6bd&width=1420&userId=&cache=v2" width=300/>
 
 Notice that he started a fake API with the resources `/stock` and `/products` on `localhost` on port `3333` from the information in the server.json file located at the root of your project. Accessing these routes in your browser, you can see the return of the information already in JSON:
 
-<img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0fe33995-e128-480c-aaf9-c8d77e0f5544%2FUntitled.png?table=block&id=c98c49ef-d0be-4306-a2e5-028e363c58c6&width=380&userId=&cache=v2" width=300/>
+<img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0fe33995-e128-480c-aaf9-c8d77e0f5544%2FUntitled.png?table=block&id=c98c49ef-d0be-4306-a2e5-028e363c58c6&width=380&userId=&cache=v2" height=300/>
 <img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fc89f74cb-4e41-4658-91d4-f8358a973088%2FUntitled.png?table=block&id=fa8ff43b-a903-4ad6-972f-d165a0e5ad94&width=1820&userId=&cache=v2" width=300/>
 
 That way, you just need to consume these API routes normally with Axios.
