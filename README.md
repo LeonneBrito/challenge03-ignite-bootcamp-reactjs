@@ -57,8 +57,8 @@ Then you will see the message:
 
 Notice that he started a fake API with the resources `/stock` and `/products` on `localhost` on port `3333` from the information in the server.json file located at the root of your project. Accessing these routes in your browser, you can see the return of the information already in JSON:
 
-<img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0fe33995-e128-480c-aaf9-c8d77e0f5544%2FUntitled.png?table=block&id=c98c49ef-d0be-4306-a2e5-028e363c58c6&width=380&userId=&cache=v2" />
-<img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fc89f74cb-4e41-4658-91d4-f8358a973088%2FUntitled.png?table=block&id=fa8ff43b-a903-4ad6-972f-d165a0e5ad94&width=1820&userId=&cache=v2" />
+<img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0fe33995-e128-480c-aaf9-c8d77e0f5544%2FUntitled.png?table=block&id=c98c49ef-d0be-4306-a2e5-028e363c58c6&width=380&userId=&cache=v2" width=300/>
+<img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fc89f74cb-4e41-4658-91d4-f8358a973088%2FUntitled.png?table=block&id=fa8ff43b-a903-4ad6-972f-d165a0e5ad94&width=1820&userId=&cache=v2" width=300/>
 
 That way, you just need to consume these API routes normally with Axios.
 
@@ -114,7 +114,7 @@ In this file, we have three important points to be implemented:
 
 ### pages/Cart/index.tsx
 
-<img alt="cart" src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fa34120df-4046-4a84-8133-6eb987bceac6%2FUntitled.png?table=block&id=4e3c96e5-f7a7-4e1a-9fa9-34d99494047b&width=2000&userId=&cache=v2" />
+<img alt="cart" src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fa34120df-4046-4a84-8133-6eb987bceac6%2FUntitled.png?table=block&id=4e3c96e5-f7a7-4e1a-9fa9-34d99494047b&width=2000&userId=&cache=v2" width=300/>
 
 You must render a table with the image, title, unit price, quantity of units and subtotal price of each product in the cart. In addition, it is also necessary to render the total price of the cart. Finally, it is necessary to implement the functionalities of the buttons to decrement, increase and remove the product from the affection.
 
